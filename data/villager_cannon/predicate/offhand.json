@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:crossbow",
+              "components": {
+                "minecraft:custom_data": "{villager_cannon:true}",
+                "minecraft:charged_projectiles": []
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " ti",
+      "lir",
+      "sbp"
+    ],
+    "key": {
+      "l": "minecraft:lightning_rod",
+      "s": "minecraft:stick",
+      "b": "minecraft:stone_button",
+      "p": "#minecraft:planks",
+      "i": "minecraft:iron_ingot",
+      "r": "minecraft:iron_block",
+      "t": "minecraft:iron_trapdoor"
+    },
+    "result": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:item_name": "{\"color\":\"white\",\"font\":\"default\",\"text\":\"村人砲\"}",
+        "minecraft:item_model": "villager_cannon:villager_cannon",
+        "minecraft:custom_data": "{villager_cannon:true}",
+        "minecraft:max_stack_size": 1,
+        "minecraft:enchantments": {
+          "levels": {
+            "villager_cannon:item/cannon_fire": 1,
+            "villager_cannon:item/villager_hit": 1,
+            "villager_cannon:item/zoom": 1
+          },
+          "show_in_tooltip": false
+        },
+        "minecraft:enchantment_glint_override": false
+      },
+      "count": 1
+    },
+    "show_notification": true
+  }
